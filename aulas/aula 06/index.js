@@ -7,7 +7,8 @@ const app = express();
 // criar um middleware
 app.get('/', (req, res) => {
     res.send("Olá")
-});
+});-
+.
 
 // 3. iniciar a aplicação
 app.listen(8000, ()=>{
